@@ -46,7 +46,7 @@
 
 > [!IMPORTANT]
 > On first run or reload, please hover on the display name or avatar first  
-> Then hover on the username on the hover card to let the extension to work
+> Then hover on the username on the hover card to let the extension to work  
 > I still can't solve this problem
 
 <img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/1a7e4600-b9f0-4208-9d75-5583bbe865a4" />
