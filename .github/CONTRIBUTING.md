@@ -24,7 +24,7 @@ To contribute, follow these steps:
 
 Use clear and descriptive commit messages. Follow the conventional commit format when possible:
 
-+ feat(modules): Add new modules - dectector  
++ feat(modules): Add new country flags 
 + fix(dectector): Resolve issue with session timeout  
 + docs(api): Update README with new set up steps  
 
