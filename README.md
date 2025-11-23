@@ -1,14 +1,44 @@
+<!-- <div align="center" >
+  <img src="https://github.com/user-attachments/assets/f9d8f931-28c9-4d29-8e3e-4960bf4ffa71" width="50%">
+</div> -->
+
+
 <div align="center">
   <h1>Twitter Location Extension</h1>
 </div>
 
 <div align="center" >
-  <img src="https://github.com/user-attachments/assets/8c40e6d5-48a0-48f2-ad47-b58bd6f88e27" width="50%">
-</div>
-<div align="center" >
-  <i>A browser extension that displays country flags and location information next to Twitter (X.com) usernames when you hover over them. Built with WXT framework and React.</i>
+  <b>A browser extension that displays country flags and location information next to Twitter's username when you hover over them.</b>
 </div>
 
+<br>
+
+<div align="center">
+
+  [![Twitter](https://img.shields.io/badge/JustTheVerse-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/justtheverse)
+  [![Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)](https://developer.chrome.com/docs/extensions)
+  [![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)](https://addons.mozilla.org/en-US/developers/)
+
+</div>
+
+<div align="center">
+
+  [![License: 0BSD](https://img.shields.io/badge/License-0BSD-blue?style=for-the-badge&logo=github&logoColor=white)](./LICENSE.md)
+  [![Status](https://img.shields.io/badge/status-beta-yellow?style=for-the-badge&logo=github&logoColor=white)]()
+  [![Documentation](https://img.shields.io/badge/docs-available-brightgreen?style=for-the-badge&logo=github&logoColor=white)]()
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge&logo=github&logoColor=white)](./CONTRIBUTING.md)
+
+</div>
+<div align="center">
+  <table>
+	  <td width="50%"><img height="1024" alt="image" src="https://github.com/user-attachments/assets/b8a79b57-e835-45d6-9af8-67368692885d"/></td>
+    <td width="50%"><img height="449" alt="image" src="https://github.com/user-attachments/assets/8c40e6d5-48a0-48f2-ad47-b58bd6f88e27" /></td>
+  </table>
+  <br>
+  <i>Showcase</i>
+</div>
+
+---
 
 > [!WARNING]
 > Please do not test on many profiles, you can cause rate limiting  
@@ -18,6 +48,15 @@
 > On first run or reload, please hover on the display name or avatar first  
 > Then hover on the username on the hover card to let the extension to work
 > I still can't solve this problem
+
+<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/1a7e4600-b9f0-4208-9d75-5583bbe865a4" />
+
+<div align="center" >
+  <i>Built with <a href="https://wxt.dev/">WXT</a> framework and <a href="https://react.dev/">React</a>.</i>
+</div>
+
+
+---
 
 ## Features
 
