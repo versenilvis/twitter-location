@@ -1,0 +1,58 @@
+name: Build & Release Extension
+
+on:
+  push:
+    tags:
+      - 'v*' #(e.g: v0.0.3)
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Build Extension
+        run: |
+          bun run build
+          bun run build:firefox
+
+      - name: Rename and Zip
+        run: |
+          mv .output/chrome-mv3 twitter-location-chrome
+          zip -r twitter-location-chrome.zip twitter-location-chrome
+
+          mv .output/firefox-mv2 twitter-location-firefox
+          zip -r twitter-location-firefox.zip twitter-location-firefox
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release - ${{ github.ref_name }}
+          files: |
+            twitter-location-chrome.zip
+            twitter-location-firefox.zip
+          generate_release_notes: true
+          body: |
+            ## Download
+            - [Chrome](https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/twitter-location-chrome.zip)
+            - [Firefox](https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/twitter-location-firefox.zip)
+
+            > [!IMPORTANT]
+            > For Firefox user you have to apply the extension every time you reopen browser.
+
+            **Please open an Issue if you have any problem or question**
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
