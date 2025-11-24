@@ -32,7 +32,7 @@
 <div align="center">
   <table>
 	  <td width="50%"><img height="1024" alt="image" src="https://github.com/user-attachments/assets/b8a79b57-e835-45d6-9af8-67368692885d"/></td>
-    <td width="50%"><img height="449" alt="image" src="https://github.com/user-attachments/assets/8c40e6d5-48a0-48f2-ad47-b58bd6f88e27" /></td>
+    <td width="50%"><img height="449" width="80%" alt="image" src="https://github.com/user-attachments/assets/8c40e6d5-48a0-48f2-ad47-b58bd6f88e27" /></td>
   </table>
   <br>
   <i>You can hover profile picture or display name to show</i>
