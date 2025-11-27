@@ -14,6 +14,14 @@
 <br>
 
 <div align="center">
+	<a href="https://addons.mozilla.org/en-US/firefox/addon/twitter-location/">
+		<img src="https://user-images.githubusercontent.com/22908993/166417727-3481fef4-00e5-4cf0-bb03-27fb880d993c.png" alt="Firefox add-ons" />
+	</a>
+</div>
+
+<br>
+
+<div align="center">
 
   [![Twitter](https://img.shields.io/badge/JustTheVerse-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/justtheverse)
   [![Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)](https://github.com/verse91/twitter-location/releases/tag/v0.0.2)
